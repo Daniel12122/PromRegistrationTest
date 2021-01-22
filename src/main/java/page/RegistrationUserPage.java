@@ -19,7 +19,7 @@ public class RegistrationUserPage extends BasePage {
     private SelenideElement createUserBtn =
             $(By.xpath("//*[@id=\"Z396633F1-6D03-458E-946B-204A7B642318\"]//button"));
 
-    public RegistrationSellerPage clickBtnRegistration() {
+    public RegistrationSellerPage clickBtnRegistrationSeller() {
         registrationSellerBtn.shouldBe(Condition.visible).click();
         return new RegistrationSellerPage();
     }

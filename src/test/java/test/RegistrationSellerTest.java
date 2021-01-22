@@ -19,8 +19,8 @@ public class RegistrationSellerTest extends BaseTest {
 
         HomePage
                 .openHomePage()
-                .clickBtnRegistration()
-                .clickBtnRegistration()
+                .clickBtnRegistrationUser()
+                .clickBtnRegistrationSeller()
                 .inputSellerEmail(seller)
                 .inputSellerPassword(seller)
                 .clickBtnCreateSite()

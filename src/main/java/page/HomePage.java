@@ -17,7 +17,7 @@ public class HomePage extends BasePage {
         return new HomePage();
     }
 
-    public RegistrationUserPage clickBtnRegistration() {
+    public RegistrationUserPage clickBtnRegistrationUser() {
         registrationBtn.shouldBe(Condition.visible).click();
         return new RegistrationUserPage();
     }
