@@ -12,7 +12,7 @@ import utils.data.builder.uiBuilder.SellerBuilder;
 public class RegistrationSellerTest extends BaseTest {
 
     @Test
-    public void first() {
+    public void registrationSellerTest() {
 
         Seller seller = SellerBuilder.defaultSeller();
         Checklist checklist = ChecklistBuilder.defaultChecklist();
